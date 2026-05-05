@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#nature {
+    width: 400px;
+}
+
+.vertical {
+    height: 200px;
+    width: auto;
+}
