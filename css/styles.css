@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
+}
+
+.generic {
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+    font-weight: 300;
+    font-size: 11px;
 }
 
 .header {
@@ -11,12 +20,13 @@ body {
     align-items: center;
     color: white;
     padding: 8px;
-    margin: 0 0 48px;
+    margin: 0;
     background-color: #1f2937;
 }
 
 .logo {
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -28,18 +38,28 @@ ul {
     gap: 8px;
     font-size: 18px;
     color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
     display: flex;
+    justify-content: space-around;
     color: #e5e7eb;
-    margin: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4px;
+    padding: 48px;
     background-color: #1f2937;
 }
 
 .hero-text {
     display: flex;
     flex-wrap: wrap;
+}
+
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 #nature {
@@ -49,17 +69,18 @@ ul {
 .information {
     background-color: white;
     padding: 8px;
-    margin: 8px;
+    margin: 0;
 
 }
 
 .info-text {
     text-align: center;
     padding: 4px;
-    margin: 8px;
+    margin-bottom: 16px;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 .info {
@@ -78,6 +99,9 @@ ul {
 .text {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 24px;
 }
 
 .vertical {
@@ -106,7 +130,7 @@ ul {
     font-size: 18px;
     font-weight: 300;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .author {
@@ -114,5 +138,39 @@ ul {
     align-self: flex-end;
     color: #1f2937;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
 
+.container {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #3882f6;
+    width: 900px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news {
+    display: flex;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 24px;
+    font-family: 'Roboto', sans-serif;
 }
