@@ -1,6 +1,37 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 8px;
+    margin: 8px 4px 48px;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    color: #e5e7eb;
 }
 
 #nature {
