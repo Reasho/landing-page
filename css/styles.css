@@ -41,6 +41,11 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
+.hero-contain {
+    display: flex;
+    padding: 24px;
+}
+
 .hero {
     display: flex;
     justify-content: space-around;
@@ -52,8 +57,13 @@ ul {
 }
 
 .hero-text {
+    width: 350px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .headline {
@@ -173,4 +183,22 @@ ul {
     text-align: center;
     padding: 24px;
     font-family: 'Roboto', sans-serif;
+}
+
+.blues {
+    background-color: #3882f6;
+    color: white;
+    border: 3px white;
+    border-radius: 8px;
+    width: 85px;
+    padding: 4px;
+}
+
+.whites {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 85px;
+    padding: 4px;
 }
